@@ -1,0 +1,30 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************     http://virtualltek.mgbr.net     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Samus Aran (Fusion) by endoedgarjunior"
+displayname ="Samus Aran"
+versiondate =04,14,2006
+mugenversion =04,14,2002
+author ="endoedgarjunior"
+pal.defaults =1,2,3,4
+
+[Files]
+sprite =fusion\samus.sff
+anim =fusion\samus.air
+sound =fusion\samus.snd
+cmd =samus.cmd
+cns =constants.cns
+stcommon =common.st
+st =samus.st
+pal1=fusion\fusion.act
+pal2=fusion\varia.act
+pal3=fusion\gravity.act
+pal4=fusion\omega.act
+st1=common_states.st
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

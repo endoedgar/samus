@@ -1,0 +1,35 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Samus Aran by endoedgarjunior"
+displayname = "Samus Aran"
+versiondate = 04,14,2006
+mugenversion = 04,14,2002
+author = "endoedgarjunior"
+pal.defaults = 1,2,3,4,5,6,7,8
+
+[Files]
+sprite = samus.sff
+anim = samus.air
+sound = samus.snd
+cmd = samus.cmd
+cns = constants.cns
+stcommon = common.st
+st = samus.st
+st1 = common_states.st
+pal1 = power.act
+pal2 = varia.act
+pal3 = gravity.act
+pal4 = fusion.act
+pal5 = dark.act
+pal6 = black.act
+pal7 = white.act
+pal8 = green.act
+pal9 = phazon.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

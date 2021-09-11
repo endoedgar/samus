@@ -1,0 +1,53 @@
+; Samus Aran
+; Constantes
+
+[Data]
+life = 1000
+attack = 100
+defence = 100
+power = 3000
+fall.defence_up = 50
+liedown.time = 60
+airjuggle = 15
+sparkno = 2
+guard.sparkno = 40
+KO.echo = 0
+volume = 0
+IntPersistIndex = 58
+FloatPersistIndex = 40
+
+[Size]
+xscale = 1 ; Defina aqui o tamanho horizontal da Samus
+yscale = 1 ; Defina aqui o tamanho vertical da Samus
+ground.back = 10
+ground.front = 10
+air.back = 10
+air.front = 10
+height = 86;43
+attack.dist = 160
+proj.attack.dist = 90
+proj.doscale = 0
+head.pos = 0, -35
+mid.pos = 0, -27
+shadowoffset = -1
+
+[Velocity]
+walk.fwd  = 0.1;0.14;.8;2.4
+walk.back = -0.1;-0.14;-2.2
+run.fwd  = 3.00, 0;4.6, 0
+run.back = -3.5, -3.8
+jump.neu = 0,-8;-4
+jump.back = -8;-4
+jump.fwd = 1.4
+runjump.back = 0,0
+runjump.fwd = 0,0
+airjump.neu = 0,0
+airjump.back = 0
+airjump.fwd =0
+
+[Movement]
+airjump.num = 0
+airjump.height = 70;35
+yaccel = .4;.11
+stand.friction = 0.425;.85
+crouch.friction = 0.41;.82
