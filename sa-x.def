@@ -1,0 +1,27 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="SA-X by endoedgarjunior"
+displayname ="SA-X"
+versiondate =04,14,2006
+mugenversion =04,14,2002
+author ="endoedgarjunior"
+pal.defaults =1
+
+[Files]
+sprite =sa-x\sa-x.sff
+anim =sa-x\sa-x.air
+sound =sa-x\sa-x.snd
+cmd =samus.cmd
+cns =constants.cns
+stcommon =common.st
+st =samus.st
+pal1=sa-x\varia.act
+st1=common_states.st
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 
